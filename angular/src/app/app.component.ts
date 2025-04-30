@@ -16,6 +16,7 @@ export class AppComponent {
 
   ngOnInit() {
     ls.init(import.meta.env['NG_APP_LIVESESSION_TRACK_ID'] || "YOUR_TRACK_ID")
+    
     ls.newPageView()
   }
 }

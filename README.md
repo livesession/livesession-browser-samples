@@ -35,7 +35,7 @@ npm install @livesession/browser
 ```ts
 import ls from "@livesession/browser"
 
-ls.init("YOUR_TRACKING_CODE")
+ls.init("YOUR_TRACK_ID")
 ```
 
 3. Start recording:
