@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 
-import ls from "@livesession/sdk"
+import ls from "@livesession/browser"
 
 import reactLogo from './assets/react.svg'
 import lsLogo from './assets/ls.png'
@@ -34,9 +34,6 @@ function App() {
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
                 </button>
-                <p>
-                    Edit <code>src/App.tsx</code> and save to test HMR
-                </p>
             </div>
             <p className="read-the-docs">
                 Click on the Vite, React or LiveSession logos to learn more

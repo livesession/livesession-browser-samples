@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Counter from './components/Counter.vue'
 </script>
 
 <template>
@@ -10,11 +10,18 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-    <a href="https://livesession.io" target="_blank">
+    <a href="https://livesession.dev" target="_blank">
       <img src="./assets/ls.png" className="logo livesession" alt="LiveSession logo"/>
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue + LiveSession" />
+  <h1>
+    Vite + Vue + LiveSession
+  </h1>
+
+  <Counter />
+
+  <p class="read-the-docs">Click on the Vite, Vue or LiveSession logos to learn more</p>
+
 </template>
 
 <style scoped>

@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 
-import ls from "@livesession/sdk";
+import ls from "@livesession/browser";
 
 import './style.css'
 import App from './App.vue'

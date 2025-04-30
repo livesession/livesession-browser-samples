@@ -1,0 +1,14 @@
+.card {
+}
+
+.card button {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background-color: #333;
+}   

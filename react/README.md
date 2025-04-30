@@ -14,8 +14,10 @@ with a React application built with Vite and TypeScript.
 Clone this repository and install the dependencies:
 
 ```bash
-git clone https://github.com/livesession/livesession-samples
-cd livesession-samples/get-started/react
+git clone https://github.com/livesession/livesession-browser-samples
+
+cd livesession-browser-samples/react
+
 npm i
 ```
 
@@ -29,10 +31,9 @@ Open your browser and navigate to [http://localhost:5173](http://localhost:5173)
 
 ## Sample overview
 
-1. LiveSession [Browser SDK](https://github.com/livesession/livesession-sdk) usage with autocapture events.
+1. LiveSession [Browser SDK](https://github.com/livesession/livesession-browser) usage with autocapture events.
+
+2. Basic example how to init LiveSession script in the `src/main.tsx` file.
 
 2. Basic example how to use [custom events](https://help.livesession.io/en/articles/8496404-custom-events)
    in the `src/App.tsx` file (the `Counter` event name).
-
-
-

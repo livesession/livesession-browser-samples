@@ -1,0 +1,24 @@
+---
+const trackID = import.meta.env.PUBLIC_LIVESESSION_TRACK_ID;
+---
+
+<livesession-astro data-track-id={trackID}></livesession-astro>
+
+<script>
+  import ls from "@livesession/browser";
+
+  class LiveSessionAstro extends HTMLElement {
+    connectedCallback() {
+      const trackId = this.dataset.trackId;
+      if (!trackId) {
+        console.warn("(livesession-astro): no 'trackId' provided");
+        return;
+      }
+
+      ls.init(trackId);
+      ls.newPageView();
+    }
+  }
+
+  customElements.define("livesession-astro", LiveSessionAstro);
+</script>
