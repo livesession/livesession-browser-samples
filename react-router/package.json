@@ -1,7 +1,7 @@
 {
-  "name": "react-router",
-  "private": true,
+  "name": "livesession-react-router-sample",
   "type": "module",
+  "version": "0.0.0",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",

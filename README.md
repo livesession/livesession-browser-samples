@@ -4,36 +4,50 @@ This repository contains examples of how to integrate [@livesession/browser](htt
 
 ## Available Examples
 
-- [React](./react) - Basic React integration
-- [Vue](./vue) - Vue.js integration
 - [Angular](./angular) - Angular integration
-- [Next.js](./next) - Next.js integration
+
 - [Astro](./astro) - Astro integration
-- [Svelte](./svelte) - Svelte integration
+
+- [Next.js](./next) - Next.js integration
+
 - [Nuxt](./nuxt) - Nuxt.js integration
+
+- [React](./react) - Basic React integration
+
+- [React Router](./react-router) - React Router integration
+
+- [SvelteKit](./sveltekit) - SvelteKit integration
+
+- [Vue](./vue) - Vue.js integration
 
 ## Getting Started
 
 Each framework example is contained in its own directory with specific instructions. Choose the framework you're interested in and follow the README in that directory.
 
-## General Integration Steps
+## General LiveSession Browser SDK setup
 
 1. Install the package:
 ```bash
 npm install @livesession/browser
-# or
-yarn add @livesession/browser
 ```
 
-2. Initialize LiveSession in your application
-3. Configure recording options
-4. Start recording
+2. Initialize LiveSession:
+```ts
+import ls from "@livesession/browser"
 
-See individual framework examples for specific implementation details.
+ls.init("YOUR_TRACKING_CODE")
+```
+
+3. Start recording:
+```ts
+ls.newPageView()
+```
+
+For more details, see individual framework examples for specific implementation details.
 
 ## Requirements
 
-- Node.js 14.x or later
+- Node.js 16.x or later
 - A LiveSession account and project key
 
 ## License

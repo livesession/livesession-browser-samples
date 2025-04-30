@@ -1,5 +1,5 @@
 {
-  "name": "angular",
+  "name": "livesession-angular-sample",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@livesession/browser": "^1.3.0",
     "@angular/common": "^19.2.0",
